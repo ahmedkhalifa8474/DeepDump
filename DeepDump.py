@@ -4,8 +4,8 @@ import csv
 import logging
 import requests
 from volatility.plugins import pslist, dlllist, cmdscan, netscan, malfind, strings # type: ignore
-from volatility import framework # type: ignore
-from volatility.framework import interfaces # type: ignore
+from volatility import framework
+from volatility.framework import interfaces 
 from datetime import datetime
 
 # ASCII Banner
@@ -23,8 +23,8 @@ print(BANNER)
 CONFIG_FILE = "config.json"
 
 # API Keys and URLs
-VIRUSTOTAL_API_KEY = "e20703e48bc155a08acd59b0aba44f66446d88c6fdadb6f690c0bf819d556e0c"
-ABUSEIPDB_API_KEY = "a2b2f394cf6fa3171be74816f09246b400dde22a8e81f0a15ffd8ab7bf99033be57f7de71e3297df"
+VIRUSTOTAL_API_KEY = "e20703e48bc155$$$$0c0bf819d556e0c"
+ABUSEIPDB_API_KEY = "a2b2f394cf6fa3171be7$$$$$$$0a15ffd8ab7bf99033be57f7de71e3297df"
 VIRUSTOTAL_URL = "https://www.virustotal.com/api/v3/files/"
 ABUSEIPDB_URL = "https://api.abuseipdb.com/api/v2/check"
 
